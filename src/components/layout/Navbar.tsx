@@ -67,7 +67,7 @@ export default function Navbar() {
               href="/"
               className="absolute left-1/2 -translate-x-1/2 font-serif text-xl lg:text-2xl font-bold tracking-[0.2em] text-white hover:text-[#c9a84c] transition-colors uppercase"
             >
-              KILENTAR
+              COSSIRAE
             </Link>
 
             {/* Desktop Nav Links - Right */}

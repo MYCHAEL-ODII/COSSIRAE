@@ -78,7 +78,7 @@ export default function Footer() {
               href="/"
               className="font-serif text-2xl font-bold tracking-[0.2em] text-white uppercase block mb-6"
             >
-              KILENTAR
+              COSSIRAE
             </Link>
             <p className="text-[#888888] text-sm leading-relaxed mb-8 max-w-xs">
               Luxury fashion for those who understand that true style is a philosophy, 
@@ -164,7 +164,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-[#888888] text-xs">
-              © {new Date().getFullYear()} KILENTAR. All rights reserved.
+              © {new Date().getFullYear()} COSSIRAE. All rights reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link href="/privacy" className="text-[#888888] text-xs hover:text-[#c9a84c] transition-colors">

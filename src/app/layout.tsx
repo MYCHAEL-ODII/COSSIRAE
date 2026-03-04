@@ -5,8 +5,8 @@ import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: {
-    default: "KILENTAR — Dark Luxury Fashion",
-    template: "%s | KILENTAR",
+    default: "COSSIRAE — Dark Luxury Fashion",
+    template: "%s | COSSIRAE",
   },
   description:
     "Luxury fashion for those who understand that true style is a philosophy, not a trend. Discover our curated collections of dark, sophisticated pieces.",
@@ -14,14 +14,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://kilentar.com",
-    siteName: "KILENTAR",
-    title: "KILENTAR — Dark Luxury Fashion",
+    url: "https://cossirae.com",
+    siteName: "COSSIRAE",
+    title: "COSSIRAE — Dark Luxury Fashion",
     description: "Luxury fashion for those who understand that true style is a philosophy, not a trend.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "KILENTAR — Dark Luxury Fashion",
+    title: "COSSIRAE — Dark Luxury Fashion",
     description: "Luxury fashion for those who understand that true style is a philosophy, not a trend.",
   },
   robots: {

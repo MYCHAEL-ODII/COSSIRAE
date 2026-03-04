@@ -41,7 +41,7 @@ export default function RegisterPage() {
         <div className="absolute inset-0 bg-[#0a0a0a]/60" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-12">
           <Link href="/" className="font-serif text-3xl font-bold tracking-[0.2em] uppercase text-white mb-6">
-            KILENTAR
+            COSSIRAE
           </Link>
           <div className="space-y-4 text-left max-w-xs">
             {[
@@ -66,7 +66,7 @@ export default function RegisterPage() {
         <div className="w-full max-w-md">
           <div className="lg:hidden text-center mb-8">
             <Link href="/" className="font-serif text-2xl font-bold tracking-[0.2em] uppercase">
-              KILENTAR
+              COSSIRAE
             </Link>
           </div>
 

@@ -165,7 +165,7 @@ export default function HomePage() {
             <span className="text-gradient-gold italic">Self-Expression</span>
           </h2>
           <p className="text-[#cccccc] text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
-            KILENTAR was born from a belief that clothing should be more than fabric — 
+            COSSIRAE was born from a belief that clothing should be more than fabric — 
             it should be a statement, a shield, a second skin. We create pieces for those 
             who dress with intention and live without compromise.
           </p>
@@ -277,7 +277,7 @@ export default function HomePage() {
             {
               name: "Alexandra M.",
               location: "New York",
-              text: "KILENTAR has completely transformed my wardrobe. Every piece is a work of art — the quality is unmatched and the aesthetic is exactly what I've been searching for.",
+              text: "COSSIRAE has completely transformed my wardrobe. Every piece is a work of art — the quality is unmatched and the aesthetic is exactly what I've been searching for.",
               rating: 5,
             },
             {
@@ -289,7 +289,7 @@ export default function HomePage() {
             {
               name: "Sofia R.",
               location: "Paris",
-              text: "I discovered KILENTAR through a friend and I've never looked back. The dark aesthetic speaks to my soul and the sustainability commitment aligns with my values.",
+              text: "I discovered COSSIRAE through a friend and I've never looked back. The dark aesthetic speaks to my soul and the sustainability commitment aligns with my values.",
               rating: 5,
             },
           ].map((review) => (
@@ -359,7 +359,7 @@ export default function HomePage() {
       {/* ─── INSTAGRAM GRID ─── */}
       <section className="py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <p className="section-subtitle">@kilentar</p>
+          <p className="section-subtitle">@cossirae</p>
           <h2 className="section-title text-4xl">Follow Our World</h2>
         </div>
         <div className="grid grid-cols-3 lg:grid-cols-6 gap-2">

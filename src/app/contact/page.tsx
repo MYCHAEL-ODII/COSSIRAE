@@ -50,13 +50,13 @@ export default function ContactPage() {
                   {
                     icon: Mail,
                     label: "Email",
-                    value: "hello@kilentar.com",
+                    value: "hello@cossirae.com",
                     sub: "We reply within 24 hours",
                   },
                   {
                     icon: Phone,
                     label: "Phone",
-                    value: "+1 (800) KILENTAR",
+                    value: "+1 (800) COSSIRAE",
                     sub: "Mon–Fri, 9am–6pm EST",
                   },
                   {

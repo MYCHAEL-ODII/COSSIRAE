@@ -76,13 +76,13 @@ export default function SustainabilityPage() {
             {
               icon: Globe,
               title: "Carbon Neutrality",
-              desc: "Since 2022, KILENTAR has been fully carbon neutral. We measure our entire carbon footprint — from raw materials to delivery — and offset 100% through verified reforestation and renewable energy projects.",
+              desc: "Since 2022, COSSIRAE has been fully carbon neutral. We measure our entire carbon footprint — from raw materials to delivery — and offset 100% through verified reforestation and renewable energy projects.",
               items: ["Full supply chain measurement", "Verified carbon offsets", "Renewable energy in production", "Carbon-neutral shipping"],
             },
             {
               icon: Heart,
               title: "Ethical Production",
-              desc: "Every person who touches a KILENTAR garment is paid a living wage and works in safe, dignified conditions. We audit all our partners annually and publish the results publicly.",
+              desc: "Every person who touches a COSSIRAE garment is paid a living wage and works in safe, dignified conditions. We audit all our partners annually and publish the results publicly.",
               items: ["Living wage guarantee", "Annual factory audits", "Published supply chain", "Worker welfare programs"],
             },
             {
@@ -194,7 +194,7 @@ export default function SustainabilityPage() {
           <p className="section-subtitle">Take Action</p>
           <h2 className="section-title text-4xl mb-6">Shop with Purpose</h2>
           <p className="text-[#888888] mb-8">
-            Every purchase supports our mission. When you buy KILENTAR, you&apos;re investing in 
+            Every purchase supports our mission. When you buy COSSIRAE, you&apos;re investing in 
             a better future for fashion.
           </p>
           <Link href="/shop" className="btn-primary">

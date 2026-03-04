@@ -94,7 +94,7 @@ export default function CheckoutPage() {
       <div className="border-b border-[#1a1a1a] py-5">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
           <Link href="/" className="font-serif text-xl font-bold tracking-[0.2em] uppercase">
-            KILENTAR
+            COSSIRAE
           </Link>
           <div className="flex items-center gap-2 text-xs text-[#888888]">
             <Lock size={12} />
