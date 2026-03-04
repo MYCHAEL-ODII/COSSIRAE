@@ -1,10 +1,10 @@
-# Active Context: KILENTAR Dark Luxury E-Commerce Website
+# Active Context: COSSIRAE Dark Luxury E-Commerce Website
 
 ## Current State
 
 **Project Status**: ✅ Full e-commerce website built and deployed
 
-The project has been transformed from a Next.js starter template into a complete dark-themed luxury fashion e-commerce website called **KILENTAR**, inspired by kilentar.com.
+The project has been transformed from a Next.js starter template into a complete dark-themed luxury fashion e-commerce website called **COSSIRAE**.
 
 ## Recently Completed
 

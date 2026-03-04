@@ -5,7 +5,7 @@ import { pressFeatures } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Press & Media",
-  description: "KILENTAR press coverage, media kit, and brand assets.",
+  description: "COSSIRAE press coverage, media kit, and brand assets.",
 };
 
 export default function PressPage() {
@@ -36,13 +36,13 @@ export default function PressPage() {
               <div>
                 <p className="label-dark">Press & Communications</p>
                 <p className="font-semibold">Camille Dubois</p>
-                <p className="text-sm text-[#888888]">press@kilentar.com</p>
+                <p className="text-sm text-[#888888]">press@cossirae.com</p>
                 <p className="text-sm text-[#888888]">+33 1 42 86 00 00</p>
               </div>
               <div>
                 <p className="label-dark">International Press</p>
                 <p className="font-semibold">James Whitfield</p>
-                <p className="text-sm text-[#888888]">international@kilentar.com</p>
+                <p className="text-sm text-[#888888]">international@cossirae.com</p>
                 <p className="text-sm text-[#888888]">+1 212 555 0100</p>
               </div>
             </div>
@@ -127,7 +127,7 @@ export default function PressPage() {
           <p className="section-subtitle">For Editors</p>
           <h2 className="section-title text-3xl mb-4">Brand Story</h2>
           <p className="text-[#888888] max-w-2xl mx-auto mb-8 leading-relaxed">
-            KILENTAR is a Paris-based luxury fashion house founded in 2019 by architect-turned-designer 
+            COSSIRAE is a Paris-based luxury fashion house founded in 2019 by architect-turned-designer 
             Elara Voss. The brand is defined by its commitment to dark aesthetics, sustainable luxury, 
             and architectural precision. Each collection is a meditation on the beauty of darkness — 
             the space between stars, the depth of shadows, the quiet power of restraint.

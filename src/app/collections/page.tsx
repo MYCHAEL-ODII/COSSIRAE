@@ -5,7 +5,7 @@ import { collections } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Collections",
-  description: "Explore KILENTAR's curated collections of dark luxury fashion.",
+  description: "Explore COSSIRAE's curated collections of dark luxury fashion.",
 };
 
 export default function CollectionsPage() {

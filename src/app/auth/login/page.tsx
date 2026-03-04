@@ -24,7 +24,7 @@ export default function LoginPage() {
         <div className="absolute inset-0 bg-[#0a0a0a]/60" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center p-12">
           <Link href="/" className="font-serif text-3xl font-bold tracking-[0.2em] uppercase text-white mb-6">
-            KILENTAR
+            COSSIRAE
           </Link>
           <p className="text-[#cccccc] text-lg font-serif italic max-w-sm">
             &ldquo;Style is a way to say who you are without having to speak.&rdquo;
@@ -37,7 +37,7 @@ export default function LoginPage() {
         <div className="w-full max-w-md">
           <div className="lg:hidden text-center mb-8">
             <Link href="/" className="font-serif text-2xl font-bold tracking-[0.2em] uppercase">
-              KILENTAR
+              COSSIRAE
             </Link>
           </div>
 

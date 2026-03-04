@@ -4,7 +4,7 @@ import { ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Our Story",
-  description: "The story behind KILENTAR — luxury fashion born from darkness and intention.",
+  description: "The story behind COSSIRAE — luxury fashion born from darkness and intention.",
 };
 
 export default function AboutPage() {
@@ -34,7 +34,7 @@ export default function AboutPage() {
             one that celebrates darkness not as absence, but as depth.&rdquo;
           </p>
           <div className="divider mx-auto mt-8" />
-          <p className="text-sm text-[#888888] mt-4">— Founder, KILENTAR</p>
+          <p className="text-sm text-[#888888] mt-4">— Founder, COSSIRAE</p>
         </div>
       </section>
 
@@ -45,7 +45,7 @@ export default function AboutPage() {
             <p className="section-subtitle">The Beginning</p>
             <h2 className="section-title text-4xl mb-6">Born from Darkness</h2>
             <p className="text-[#888888] leading-relaxed mb-4">
-              KILENTAR was founded in 2019 in a small atelier in Paris, born from a singular vision: 
+              COSSIRAE was founded in 2019 in a small atelier in Paris, born from a singular vision: 
               to create clothing that speaks to those who find beauty in shadows, who understand that 
               the most profound things often exist in the spaces between light.
             </p>
@@ -55,7 +55,7 @@ export default function AboutPage() {
               wall, each silhouette as a skyline.
             </p>
             <p className="text-[#888888] leading-relaxed">
-              The name KILENTAR comes from an ancient word meaning &ldquo;the space between stars&rdquo; — 
+              The name COSSIRAE comes from an ancient word meaning &ldquo;the space between stars&rdquo; — 
               that infinite darkness that makes the light meaningful.
             </p>
           </div>
@@ -88,7 +88,7 @@ export default function AboutPage() {
             <p className="section-subtitle">The Craft</p>
             <h2 className="section-title text-4xl mb-6">Obsessed with Quality</h2>
             <p className="text-[#888888] leading-relaxed mb-4">
-              Every KILENTAR piece begins with the finest materials sourced from the world&apos;s most 
+              Every COSSIRAE piece begins with the finest materials sourced from the world&apos;s most 
               respected mills and tanneries. We work exclusively with suppliers who share our commitment 
               to quality and ethical production.
             </p>
