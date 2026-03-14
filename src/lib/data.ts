@@ -1,11 +1,12 @@
 import { Product, Collection } from "./types";
+import Image from 'next/image'
 
 export const collections: Collection[] = [
   {
     id: "1",
     name: "Noir Essentials",
     description: "Timeless pieces crafted for the modern minimalist",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+    image: "images/132237137_795699264622126_2884194292706316421_n.jpg",
     slug: "noir-essentials",
     itemCount: 24,
   },
@@ -13,7 +14,7 @@ export const collections: Collection[] = [
     id: "2",
     name: "Avant-Garde",
     description: "Bold silhouettes pushing the boundaries of fashion",
-    image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80",
+    image: "images/132428293_796403861218333_3815278800641861111_n.jpg",
     slug: "avant-garde",
     itemCount: 18,
   },
@@ -21,7 +22,7 @@ export const collections: Collection[] = [
     id: "3",
     name: "Urban Luxe",
     description: "Street-inspired luxury for the city dweller",
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+    image: "images/132580752_796505557874830_3871414550346683694_n.jpg",
     slug: "urban-luxe",
     itemCount: 32,
   },
@@ -29,7 +30,7 @@ export const collections: Collection[] = [
     id: "4",
     name: "Evening Ritual",
     description: "Sophisticated pieces for unforgettable nights",
-    image: "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=80",
+    image: "images/468427523_1674589396733104_1661764472004291959_n.jpg",
     slug: "evening-ritual",
     itemCount: 15,
   },
@@ -44,8 +45,8 @@ export const products: Product[] = [
     category: "Outerwear",
     collection: "Noir Essentials",
     images: [
-      "https://images.unsplash.com/photo-1594938298603-c8148c4b4f7b?w=800&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4b4f7b?w=800&q=80",
+      "images/468809321_1677341276457916_273411689530909472_n.jpg",
+      "images/468809321_1677341276457916_273411689530909472_n.jpg",
     ],
     description: "A masterpiece of tailoring, the Obsidian Structured Blazer commands attention with its sharp silhouette and premium wool-blend construction. Designed for those who understand that true luxury lies in the details.",
     details: [
@@ -77,8 +78,8 @@ export const products: Product[] = [
     category: "Dresses",
     collection: "Evening Ritual",
     images: [
-      "https://images.unsplash.com/photo-1566479179817-c0b5b4b4b4b4?w=800&q=80",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80",
+      "images/469346820_1681339399391437_3161155072356674000_n.jpg",
+      "images/469346820_1681339399391437_3161155072356674000_n.jpg",
     ],
     description: "Draped in the finest Italian velvet, this midi dress embodies effortless sophistication. The bias-cut silhouette moves with you, creating an ethereal presence that commands every room.",
     details: [
@@ -109,8 +110,8 @@ export const products: Product[] = [
     category: "Bottoms",
     collection: "Urban Luxe",
     images: [
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80",
-      "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80",
+      "images/469844258_1683504315841612_2298702838803382637_n.jpg",
+      "images/469844258_1683504315841612_2298702838803382637_n.jpg",
     ],
     description: "Crafted from the finest full-grain leather, these trousers redefine urban sophistication. The tailored cut creates a sleek silhouette that transitions seamlessly from day to night.",
     details: [
@@ -140,8 +141,8 @@ export const products: Product[] = [
     category: "Tops",
     collection: "Noir Essentials",
     images: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "images/482221503_1185341483594926_7976440951624566858_n.jpg",
+      "images/482221503_1185341483594926_7976440951624566858_n.jpg",
     ],
     description: "Woven from the finest mulberry silk, the Phantom Blouse drapes with an otherworldly elegance. Its fluid silhouette and subtle sheen make it the cornerstone of any refined wardrobe.",
     details: [
@@ -172,8 +173,8 @@ export const products: Product[] = [
     category: "Outerwear",
     collection: "Noir Essentials",
     images: [
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=80",
-      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&q=80",
+      "images/480650998_1167972718665136_3087756979508128212_n.jpg",
+      "images/480650998_1167972718665136_3087756979508128212_n.jpg",
     ],
     description: "The Eclipse Coat is the ultimate expression of understated luxury. Crafted from the finest Mongolian cashmere, its oversized silhouette and clean lines create an aura of effortless sophistication.",
     details: [
@@ -203,8 +204,8 @@ export const products: Product[] = [
     category: "Accessories",
     collection: "Avant-Garde",
     images: [
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80",
-      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&q=80",
+      "images/469889152_1683501585841885_7695661542399238965_n.jpg",
+      "images/469889152_1683501585841885_7695661542399238965_n.jpg",
     ],
     description: "An architectural statement piece, the Void Bag challenges conventional design with its geometric form and premium leather construction. A collector's item for the discerning fashion enthusiast.",
     details: [
@@ -234,8 +235,8 @@ export const products: Product[] = [
     category: "Tops",
     collection: "Urban Luxe",
     images: [
-      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80",
-      "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=800&q=80",
+      "images/213153072_914164519442266_5387548626400547099_n.jpg",
+      "images/213153072_914164519442266_5387548626400547099_n.jpg",
     ],
     description: "The Dusk Sweater is a study in refined comfort. Knitted from a premium merino-cashmere blend, its relaxed silhouette and subtle texture create a piece that feels as luxurious as it looks.",
     details: [
@@ -265,8 +266,8 @@ export const products: Product[] = [
     category: "Bottoms",
     collection: "Avant-Garde",
     images: [
-      "https://images.unsplash.com/photo-1594938298603-c8148c4b4f7b?w=800&q=80",
-      "https://images.unsplash.com/photo-1594938298603-c8148c4b4f7b?w=800&q=80",
+      "images/187623031_884165585775493_1003812743884200256_n.jpg",
+      "images/187623031_884165585775493_1003812743884200256_n.jpg",
     ],
     description: "Dramatic and commanding, the Abyss Trousers make a statement with their exaggerated wide-leg silhouette. Crafted from a fluid crepe fabric, they move with an almost liquid grace.",
     details: [

@@ -30,6 +30,12 @@ export default function Navbar() {
   return (
     <>
       {/* Announcement Bar */}
+      <Link
+              href="/"
+              className="absolute left-1/2 -translate-x-1/2 font-serif text-xl lg:text-2xl font-bold tracking-[0.2em] text-white hover:text-[#c9a84c] transition-colors uppercase"
+            >
+              COSSIRAE
+            </Link>
       <div className="bg-[#c9a84c] text-[#0a0a0a] text-center py-2 px-4 text-xs font-semibold tracking-widest uppercase">
         Free worldwide shipping on orders over $300 · New collection available now
       </div>
@@ -63,12 +69,7 @@ export default function Navbar() {
             </div>
 
             {/* Logo - Center */}
-            <Link
-              href="/"
-              className="absolute left-1/2 -translate-x-1/2 font-serif text-xl lg:text-2xl font-bold tracking-[0.2em] text-white hover:text-[#c9a84c] transition-colors uppercase"
-            >
-              COSSIRAE
-            </Link>
+            
 
             {/* Desktop Nav Links - Right */}
             <div className="hidden lg:flex items-center gap-8">

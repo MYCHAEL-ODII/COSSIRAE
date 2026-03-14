@@ -1,5 +1,5 @@
 "use client";
-
+import Image from 'next/image'
 import { useEffect } from "react";
 import Link from "next/link";
 import { X, Plus, Minus, ShoppingBag, ArrowRight, Trash2 } from "lucide-react";

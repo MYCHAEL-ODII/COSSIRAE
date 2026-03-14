@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from 'next/image'
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
@@ -14,7 +15,7 @@ export default function AboutPage() {
       <section className="relative h-[60vh] flex items-end overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80"
+            src="images/469573133_1683502469175130_7906337115147269288_n.jpg"
             alt="Our Story"
             className="w-full h-full object-cover opacity-40"
           />
@@ -62,7 +63,7 @@ export default function AboutPage() {
           <div className="relative">
             <div className="aspect-[3/4] overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&q=80"
+                src="images/469839463_1683502259175151_2807003299939406090_n.jpg"
                 alt="Our Atelier"
                 className="w-full h-full object-cover"
               />
@@ -78,7 +79,7 @@ export default function AboutPage() {
           <div className="order-2 lg:order-1 relative">
             <div className="aspect-[3/4] overflow-hidden">
               <img
-                src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"
+                src="images/171527388_862984414560277_4897031235974058842_n.jpg"
                 alt="Our Craft"
                 className="w-full h-full object-cover"
               />
@@ -114,10 +115,10 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { name: "Elara Voss", role: "Founder & Creative Director", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80" },
-              { name: "Marcus Chen", role: "Head of Design", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" },
-              { name: "Isabelle Noir", role: "Head of Sustainability", img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80" },
-              { name: "Theo Laurent", role: "Master Tailor", img: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" },
+              { name: "Name", role: "Founder & Creative Director", img: "https://iages.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80" },
+              { name: "Name", role: "Head of Design", img: "https://images.unsplsh.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" },
+              { name: "Namw", role: "Head of Sustainability", img: "https://iages.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80" },
+              { name: "NAme", role: "Master Tailor", img: "https://images.unslash.com/photo-1472099645785-5658abf4ff4e?w=400&q=80" },
             ].map((member) => (
               <div key={member.name} className="group">
                 <div className="aspect-square overflow-hidden mb-4">

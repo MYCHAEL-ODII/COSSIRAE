@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from 'next/image'
 import { ArrowRight, Play, Star, Truck, Shield, RefreshCw, Globe } from "lucide-react";
 import ProductCard from "@/components/ui/ProductCard";
 import { products, collections } from "@/lib/data";
@@ -14,7 +15,7 @@ export default function HomePage() {
         {/* Background */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=90"
+            src="images/469573133_1683502469175130_7906337115147269288_n.jpg"
             alt="Hero"
             className="w-full h-full object-cover opacity-40"
           />
@@ -25,7 +26,7 @@ export default function HomePage() {
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
           <div className="max-w-2xl">
-            <p className="section-subtitle animate-fade-in">New Collection 2024</p>
+            <p className="section-subtitle animate-fade-in">New Collection 2026</p>
             <h1 className="section-title text-5xl sm:text-6xl lg:text-7xl mb-6 animate-slide-up">
               Dressed in
               <br />
@@ -151,7 +152,7 @@ export default function HomePage() {
       <section className="relative py-32 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=1920&q=80"
+            src="images/158796412_844271106431608_75152044410769716_n.jpg"
             alt="Brand Story"
             className="w-full h-full object-cover opacity-30"
           />
@@ -203,7 +204,7 @@ export default function HomePage() {
             <div className="relative">
               <div className="aspect-[4/5] overflow-hidden">
                 <img
-                  src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=800&q=80"
+                  src="images/161205423_846856882839697_4011115078013533519_n.jpg"
                   alt="Sustainability"
                   className="w-full h-full object-cover"
                 />
@@ -364,12 +365,12 @@ export default function HomePage() {
         </div>
         <div className="grid grid-cols-3 lg:grid-cols-6 gap-2">
           {[
-            "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80",
-            "https://images.unsplash.com/photo-1509631179647-0177331693ae?w=400&q=80",
-            "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=400&q=80",
-            "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=400&q=80",
-            "https://images.unsplash.com/photo-1594938298603-c8148c4b4f7b?w=400&q=80",
-            "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&q=80",
+            "images/161205423_846856882839697_4011115078013533519_n.jpg",
+            "images/132823832_797006197824766_8731246310123777769_n.jpg",
+            "images/132104585_795826981276021_4763775016335651684_n.jpg",
+            "images/171527388_862984414560277_4897031235974058842_n.jpg",
+            "images/468340233_1674589433399767_2477698958881310147_n.jpg",
+            "images/213153072_914164519442266_5387548626400547099_n.jpg",
           ].map((img, i) => (
             <a
               key={i}
