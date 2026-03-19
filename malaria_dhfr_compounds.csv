@@ -1,0 +1,10 @@
+Molecular_Weight,LogP,HBD,HBA,TPSA,Num_Rotatable_Bonds,Num_Aromatic_Rings,molecule_chembl_id,activity_value,activity_type,molecule_name,Drug_like
+209.24,1.38,1,4,61.55,4,1,CHEMBL358798,1.1,IC50,WR99210,True
+214.66,0.78,1,4,72.11,2,1,CHEMBL15370,2.2,IC50,Cycloguanil,True
+183.64,1.69,2,3,62.76,2,1,CHEMBL614860,6.8,IC50,Pyrimethamine,True
+566.71,9.89,0,4,51.56,6,7,CHEMBL29470,8.5,IC50,Piperaquine,False
+286.33,3.59,0,3,42.85,0,3,CHEMBL2294845,12.3,IC50,Pyronaridine,True
+235.71,3.14,1,2,35.25,3,2,CHEMBL18800,18.2,IC50,Amodiaquine,True
+322.33,5.04,1,1,37.3,3,2,CHEMBL492282,25.6,IC50,Mefloquine,False
+286.42,5.99,0,0,0.0,3,3,CHEMBL273480,45.2,IC50,Lumefantrine,False
+240.69,1.19,2,2,80.37,2,1,CHEMBL1431,1500.0,IC50,Proguanil,True
